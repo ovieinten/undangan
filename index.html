@@ -6,8 +6,28 @@
 <meta name="theme-color" content="#EFEDE9">
 <meta property="og:title" content="Ovie &amp; Arief">
 <meta property="og:description" content="Undangan pernikahan Ovie &amp; Arief — Ahad, 4 April 2027.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ovieinten.github.io/undangan/">
+<meta property="og:image" content="https://ovieinten.github.io/undangan/preview.jpg">
+<meta property="og:image:secure_url" content="https://ovieinten.github.io/undangan/preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="O &amp; A — Ahad, 4 April 2027, Pontianak">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="Undangan pernikahan Ovie &amp; Arief — Ahad, 4 April 2027.">
-<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;padding:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;padding:0}img{max-width:100%}[hidden]{display:none!important}
+  /* Sambungan sampul -> pembuka: tepi berlengkung + medali, dan hiasan kecil di bawah basmalah */
+  .band::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:13px;background:var(--paper) var(--noise);pointer-events:none;-webkit-mask:radial-gradient(circle at 50% 0,transparent 11px,#000 11.6px) bottom/26px 13px repeat-x;mask:radial-gradient(circle at 50% 0,transparent 11px,#000 11.6px) bottom/26px 13px repeat-x}
+  #pembuka > .seam{position:absolute;left:50%;top:0;width:50px;height:50px;transform:translate(-50%,-62%);z-index:6;pointer-events:none}
+  #pembuka > .seam svg{width:100%;height:100%;display:block;filter:drop-shadow(0 4px 8px rgba(60,72,52,.18))}
+  .verse-bsm{margin-bottom:6px}
+  .bsm-orn{display:flex;align-items:center;justify-content:center;gap:10px;margin:0 auto 22px;max-width:220px}
+  .bsm-orn::before,.bsm-orn::after{content:"";flex:1;height:1px}
+  .bsm-orn::before{background:linear-gradient(90deg,transparent,var(--gold))}
+  .bsm-orn::after{background:linear-gradient(90deg,var(--gold),transparent)}
+  .bsm-orn svg{width:60px;height:12px;flex:none}
+</style>
 </head>
 <body>
 <title>Ovie &amp; Arief</title>
@@ -520,7 +540,10 @@
 
   <!-- 2. Pembuka -->
   <section class="light opening" id="pembuka">
+    <div class="seam" aria-hidden="true"><svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="25" fill="var(--paper)" stroke="var(--gold)" stroke-width="1"/><circle cx="28" cy="28" r="20.5" fill="none" stroke="var(--gold)" stroke-width=".6" stroke-dasharray="1.4 2.2"/><g fill="none" stroke="var(--gold)" stroke-width="1.1"><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(0 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(45 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(90 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(135 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(180 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(225 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(270 28 28)"/><path d="M28 28 C24 22 24 15 28 11 C32 15 32 22 28 28Z" transform="rotate(315 28 28)"/></g><circle cx="28" cy="28" r="2.6" fill="var(--gold)"/></svg></div>
     <div class="verse">
+      <p class="bismillah verse-bsm" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+      <div class="bsm-orn" aria-hidden="true"><svg viewBox="0 0 60 12"><path d="M30 1.5 35 6 30 10.5 25 6Z" fill="none" stroke="var(--gold)" stroke-width="1"/><circle cx="30" cy="6" r="1.6" fill="var(--gold)"/><circle cx="18" cy="6" r="1.1" fill="var(--gold)"/><circle cx="42" cy="6" r="1.1" fill="var(--gold)"/></svg></div>
       <p class="verse-ar" lang="ar">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ</p>
       <p class="verse-id">"Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."</p>
       <p class="verse-ref">QS. AR-RUM : 21</p>
@@ -663,7 +686,6 @@
     </form>
     <div class="wish-head">
       <p class="wish-total"><span id="wishTotal">0</span> ucapan</p>
-      <span class="demo-badge" id="demoBadge">Contoh tampilan</span>
     </div>
     <ul class="wish-list" id="wishList" aria-live="polite"></ul>
     <button class="btn ghost wish-more" type="button" id="wishMore" hidden>Tampilkan ucapan lainnya</button>
@@ -1103,17 +1125,8 @@
   });
 
   /* ================= Ucapan & Doa ================= */
-  // Penyimpanan ucapan. SAAT INI: data contoh di memori (tidak tersimpan permanen).
-  // NANTI: list() dan add() diganti dengan panggilan ke Supabase; tampilan tidak perlu diubah.
+  // Penyimpanan ucapan: Supabase bila kunci terisi; tanpa kunci daftar kosong (tidak tersimpan).
   const ago = (n, unit) => new Date(Date.now() - n * {m:6e4, h:36e5, d:864e5}[unit]).toISOString();
-  const DEMO_WISHES = [
-    {name: "Rahmawati & Keluarga", message: "Barakallahu laka wa baraka 'alaika wa jama'a bainakuma fi khair. Semoga menjadi keluarga sakinah, mawaddah, warahmah. Aamiin.", created_at: ago(2, "h")},
-    {name: "Dimas Pratama", message: "Selamat menempuh hidup baru, Ovie & Arief! Semoga dilancarkan sampai hari H dan langgeng sampai ke surga-Nya.", created_at: ago(5, "h")},
-    {name: "Nurul Aini", message: "MasyaAllah, ikut bahagia! Semoga Allah mudahkan segala urusan kalian berdua.", created_at: ago(1, "d")},
-    {name: "Bapak Syahrul Sekeluarga", message: "Selamat untuk kedua mempelai dan keluarga besar. InsyaAllah kami sekeluarga hadir.", created_at: ago(3, "d")},
-    {name: "Sari Wulandari", message: "Akhirnya! Selamat ya, Vie. Semoga bahagia selalu bersama Arief.", created_at: ago(6, "d")},
-    {name: "Yusuf & Istri", message: "Semoga menjadi pasangan yang saling menguatkan dalam ketaatan. Barakallah.", created_at: ago(15, "d")}
-  ];
   const LIVE = !!(CONFIG.supabaseUrl && CONFIG.supabaseAnonKey);
   // Kunci lama (anon, diawali "eyJ") dikirim juga sebagai Bearer; kunci baru "sb_publishable_…" cukup lewat header apikey
   const sbHeaders = () => Object.assign({apikey: CONFIG.supabaseAnonKey, "Content-Type": "application/json"},
@@ -1132,10 +1145,9 @@
       return (await r.json())[0];
     }
   } : {
-    async list(){ return DEMO_WISHES.slice(); },
+    async list(){ return []; },
     async add(w){ return {...w, created_at: new Date().toISOString()}; }
   };
-  if (LIVE) document.getElementById("demoBadge").hidden = true;
   function relTime(iso){
     const s = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
     if (s < 60) return "baru saja";
@@ -1205,7 +1217,7 @@
       wishTotal.textContent = wishes.length;
       wishList.scrollTo({top: 0, behavior: reduce ? "auto" : "smooth"});
       wishMsg.value = ""; wishCount.textContent = "0";
-      wishHint.textContent = LIVE ? "Terima kasih, ucapan Anda sudah tampil." : "Terima kasih, ucapan Anda sudah tampil. (Mode pratinjau: belum tersimpan permanen.)";
+      wishHint.textContent = LIVE ? "Terima kasih, ucapan Anda sudah tampil." : "Terima kasih, ucapan Anda sudah tampil.";
     } catch (err) {
       wishHint.textContent = "Ucapan belum terkirim. Periksa koneksi Anda, lalu coba lagi.";
     } finally {
